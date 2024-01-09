@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #4e4e50 12%, transparent 12.5%, transparent 87%, #4e4e50 87.5%, #4e4e50), linear-gradient(150deg, #4e4e50 12%, transparent 12.5%, transparent 87%, #4e4e50 87.5%, #4e4e50), linear-gradient(30deg, #4e4e50 12%, transparent 12.5%, transparent 87%, #4e4e50 87.5%, #4e4e50), linear-gradient(150deg, #4e4e50 12%, transparent 12.5%, transparent 87%, #4e4e50 87.5%, #4e4e50), linear-gradient(60deg, #4e4e5077 25%, transparent 25.5%, transparent 75%, #4e4e5077 75%, #4e4e5077), linear-gradient(60deg, #4e4e5077 25%, transparent 25.5%, transparent 75%, #4e4e5077 75%, #4e4e5077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.generator-container{
+    width: 100%;
+    max-width: 450px;
+    color: white;
+    background: black;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.generator-container h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.pass-len-form{
+    margin: 15px 0;
+}
+
+.pass-len-form input{
+    width: 65%;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+}
+.pass-len-form button{
+    margin-left: 5px;
+    width: auto;
+    padding: 10px 30px;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.pass-len-form button:hover{
+    background-color: rgb(41, 39, 39);
+}
+
+
+.output{
+    color: white;
+    background: black;
+    margin: 50px auto 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+}
+.output #copyPass{
+    display: block;
+    max-width: 25px;
+    cursor: pointer;
+    float: right;
+}
+
+.output #generatedPass{
+    overflow: hidden;
+}
+
