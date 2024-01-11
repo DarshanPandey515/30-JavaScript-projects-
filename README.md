@@ -19,4 +19,4 @@ Welcome to the 30 JavaScript Projects repository, featuring a diverse range of J
 To explore these projects:
 
 1. **Clone the Repository:**
-   git clone https://github.com/your-username/30-JavaScript-projects-.git
+   git clone https://github.com/DarshanPandey515/30-JavaScript-projects-.git
